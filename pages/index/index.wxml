@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="container">
+  <view  bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.userImg}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.userName}}</text>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto" style='color:#ccc'>{{motto}}</text>
+  </view>
+   <button class="indexBtn marTop30" id='index' type="primary" bindtap='onindex'>开启美食之旅</button>
+</view>

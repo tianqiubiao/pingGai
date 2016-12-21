@@ -1,0 +1,25 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+.indexBtn{
+  width: 80%;
+  background:#1aad19;
+  font-size: 18px;
+  color: #fff; 
+}
+.marTop30{
+margin-top: 30px
+}
+.padLR20{
+padding: 0 20px
+}
+page{
+  padding: 0 20px
+}
